@@ -1,10 +1,15 @@
 import './App.css'
+import Header from './components/Header'
+import ProductSection from './components/ProductSection'
 
 function App() {
 
   return (
     <>
-      <h1>Hello Aline!</h1>
+      <div>
+        <Header />
+        <ProductSection />
+      </div>
     </>
   )
 }
