@@ -1,17 +1,13 @@
-import './App.css'
-import Header from './components/Header'
-import ProductSection from './components/ProductSection'
+import { BrowserRouter } from "react-router-dom";
+import AppRoutes from "./routes";
+import "./index.css";
 
 function App() {
-
   return (
-    <>
-      <div>
-        <Header />
-        <ProductSection />
-      </div>
-    </>
-  )
+    <BrowserRouter>
+      <AppRoutes />
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
